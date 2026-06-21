@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "bow_rail_launcher",
+  "version": "1.0.0",
+  "name": "Bow Rail Launcher",
+  "description": "Shoot a bow to auto-place Rail and TNT Minecart from your hotbar.",
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": { "main": ["com.bowraillauncher.BowRailLauncherMod"] },
+  "mixins": ["mixins.bow_rail_launcher.json"],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "fabric-api": "*",
+    "minecraft": "~1.21.4"
+  }
+}
